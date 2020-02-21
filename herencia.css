@@ -1,0 +1,60 @@
+/*
+Especificidad( a, b, c, d )
+a: Estilos definidos en html
+b: Id´s
+c: Clases y pseudo-clases
+d: Pseudo-elementos y elementos normales de html
+*/
+
+@media( min-width: 100px )  {
+    #menu   {
+        padding: 0px ;
+        color: white ;
+        background-color: black ;
+    }
+
+
+    #menu > il    {
+        display: inline-block ;
+        padding: 10px ;
+        width: 100px ;
+    }
+
+    #menu il:hover  {
+        background-color: white ;
+        color: black ;
+    }
+}
+
+@media( min-width: 450px )  {
+    #menu   {
+        padding: 0px ;
+        color: white ;
+        background-color: red ;
+    }
+
+
+    #menu > il    {
+        display: inline-block ;
+        padding: 10px ;
+        width: 100px ;
+    }
+
+    #menu il:hover  {
+        background-color: white ;
+        color: black ;
+    }
+}
+
+#content {
+    border: 1px solid black ;
+}
+
+#content p  {
+    color: blue ;
+}
+
+#content > p    {
+
+}
+
