@@ -1,0 +1,23 @@
+html    {
+    font-size: 20px ;
+}
+
+div {
+    font-size: 30px ;
+}
+
+.ejemplo_em {
+    font-size: 0.5em ;
+}
+
+.ejemplo_rem    {
+    font-size: 1.5rem ;
+}
+
+.ejemplo_vw {
+    font-size: 15vw ;
+}
+
+.ejemplo_vh {
+    font-size: 10vh ;
+}
