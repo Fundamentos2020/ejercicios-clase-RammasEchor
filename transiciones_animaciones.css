@@ -1,0 +1,74 @@
+*   {
+    border: solid black 2px ;
+}
+
+@keyframes ejemplo1 {
+    from { background-color: red; }
+    to { background-color: blue ; }
+}
+
+@keyframes ejemplo2 {
+    0% { left: 0px ; top: 0px }
+    25% { left: 200px ; top: 0px }
+    50% { left: 200px ; top: 200px }
+    75% { left: 0px ; top: 200px }
+    100% { left: 0px ; top: 0px }
+}
+
+#ej_trans    {
+    background-color: red ;
+    width: 200px ;
+    height: 100px ;
+    transition: height 2s ;
+}
+
+#ej_trans:hover {
+    height: 300px ;
+}
+
+#ej_anim    {
+    background-color: red ;
+    position: relative ;
+    width: 150px ;
+    height: 150px ;
+    animation-name: ejemplo2 ;
+    animation-duration: 5s ;
+    animation-delay: 2s ;
+}
+
+#div_menu   {
+    background-color: red ;
+    display: inline-block ;
+    width: 100% ;
+}
+
+#menu   {
+    color: white ;
+    display: inline-block ;
+}
+
+#menu li    {
+    display: inline-block ;
+    padding: 10px ;
+    width: 200 ;
+}
+
+#menu li:hover  {
+    color: black ;
+    background-color: white ;
+}
+
+#search {
+    display: inline-block ;
+    width: 60% ;
+    text-align: right ;
+}
+
+#search input   {
+    width: 10% ;
+    transition: width 2s ;
+}
+
+#search input:focus {
+    width: 150px ;
+}

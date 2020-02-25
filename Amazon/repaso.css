@@ -1,0 +1,20 @@
+*   {
+    border:  2px solid black ;
+    margin: 0px ;
+}
+
+#top_caja   {
+    background-color: blue ;
+    margin: 0px ;
+    padding: 0px ;
+    left: 0px ;
+    right: 0px ;
+    overflow: hidden;
+}
+
+#amazon_logo    {
+    position: relative;
+    left: 10% ;
+    width: 200px ;
+    height: auto ;
+}
