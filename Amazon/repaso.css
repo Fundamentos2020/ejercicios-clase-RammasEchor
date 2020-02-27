@@ -1,20 +1,52 @@
-*   {
+/* *   {
     border:  2px solid black ;
     margin: 0px ;
-}
+} */
 
 #top_caja   {
-    background-color: blue ;
+    background-color: #232F3E ;
+    position: absolute ;
+    top: 0px ;
     margin: 0px ;
-    padding: 0px ;
+    padding: 10px ;
     left: 0px ;
     right: 0px ;
-    overflow: hidden;
+    float: left;
 }
 
 #amazon_logo    {
-    position: relative;
-    left: 10% ;
-    width: 200px ;
+    position: relative ;
+    left: 42px ;
+    width: 98px ;
+    top: 5px ;
     height: auto ;
+}
+
+#menu_principal {
+    position: absolute ;
+    padding: 0px ;
+    top: 10px ;
+    bottom: 9px ;
+    left: 7px ;
+    width: 30px ;
+    background-color: #232F3E ; 
+}
+
+#boton_menu {
+    position: absolute ;
+    top: 0px ;
+    bottom: 0px ;
+    right: 0px ;
+    left: 0px ;
+    width: 38px ;
+    background-color: #232F3E ;
+    border: 1px solid grey ;
+    border-radius: 3px;
+}
+
+#barra_busqueda {
+    position: absolute ;
+    left: 250px ;
+    top: 0px ;
+    height: 30px ;
 }
