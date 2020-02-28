@@ -1,0 +1,22 @@
+.image_fluid    {
+    max-width: 400px ;
+    height: auto ;
+}
+
+.flex_container {
+    background-color: brown ;
+    display: flex ;
+    /* flex-direction: row ;
+    flex-wrap: wrap ; */
+    justify-content: center ; /* Alinear los elementos de manera horizontal */
+    height: 400px ;
+    align-items: center ; /* Alinear los elementos de manera vertical */ 
+    align-content: center  ;
+}
+
+.flex_container div {
+    font-size: 2em ;
+    background-color: cadetblue ;
+    margin: 0.25em ;
+    padding: 0.5em ;
+}
