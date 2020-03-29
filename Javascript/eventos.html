@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos</title>
+</head>
+<body>
+    <button onclick="click_button()" onmouseover="over_button()">Presiona aquí</button>
+    <ul id="lista_ej">
+        
+    </ul>
+
+    <script>
+        function click_button() {
+            console.log("Botón presionado.");/* 
+            var elemento = document.createElement("li");
+            elemento.innerText = "Elemento agregado via js" ;
+            var list = document.getElementById("lista_ej");
+            list.appendChild( elemento ); */
+            
+            var elemento = "<li>Elemento agregado via js</li>" ;
+            var list = document.getElementById("lista_ej");
+            list.innerHTML += elemento ;
+        }
+
+        function over_button()  {
+            console.log("Over button");
+        }
+    </script>
+</body>
+</html>
